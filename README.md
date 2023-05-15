@@ -6,7 +6,7 @@
 12 different themes for BSPWM and Polybar. With a theme selector to change on the fly.
 
 ## :book: Wiki
-I already started writing the wiki, you should give it a read. [**Wiki**](https://github.com/gh0stzk/dotfiles/wiki) And you can suggest topics so that you can edit the themes and leave them as you want.
+I already started writing the [**Wiki**](https://github.com/gh0stzk/dotfiles/wiki), you should give it a read. If it is your first time with a WM, you may be interested in reading [First steps after installing the dotfiles](https://github.com/gh0stzk/dotfiles/wiki/Firsts-steps-after-installing) or maybe read [frequently asked questions and answers](https://github.com/gh0stzk/dotfiles/wiki/Questions---Answers).
 
 https://user-images.githubusercontent.com/67278339/211363959-9182ecb7-e56e-4598-afed-f352c5d2979e.mp4
 
@@ -116,8 +116,9 @@ Increase and decrease transparency in focused or selected window.
 <details>
 <summary><b>Extra wallpapers in Andrea</b></summary>
 
-|<img src="config/bspwm/rices/andrea/walls/wall-02.webp" alt="Andrea Rice" align="center" width="150px">|<img src="config/bspwm/rices/andrea/walls/wall-03.webp" alt="Andrea Rice" align="center" width="150px">|<img src="config/bspwm/rices/andrea/walls/wall-04.webp" alt="Andrea Rice" align="center" width="150px">|
+|<img src="config/bspwm/rices/andrea/walls/wall-02.webp" alt="Andrea Rice" align="center" width="150px">|<img src="config/bspwm/rices/andrea/walls/wall-03.webp" alt="Andrea Rice" align="center" width="150px">|<img src="config/bspwm/rices/andrea/walls/wall-04.webp" alt="Andrea Rice" align="center" width="150px">
 |:-:|:-:|:-:|
+|<img src="config/bspwm/rices/andrea/walls/wall-05.webp" alt="Andrea Rice" align="center" width="150px">|
 
 </details>
 
@@ -173,7 +174,7 @@ Increase and decrease transparency in focused or selected window.
 
 |<img src="config/bspwm/rices/melissa/walls/wall-02.webp" alt="Melissa Rice" align="center" width="150px">|<img src="config/bspwm/rices/melissa/walls/wall-03.webp" alt="Melissa Rice" align="center" width="150px">|<img src="config/bspwm/rices/melissa/walls/wall-04.webp" alt="Melissa Rice" align="center" width="150px">|
 |:-:|:-:|:-:|
-<img src="config/bspwm/rices/melissa/walls/wall-05.webp" alt="Melissa Rice" align="center" width="150px">|
+<img src="config/bspwm/rices/melissa/walls/wall-05.webp" alt="Melissa Rice" align="center" width="150px">|<img src="config/bspwm/rices/melissa/walls/wall-06.webp" alt="Melissa Rice" align="center" width="150px">|<img src="config/bspwm/rices/melissa/walls/wall-07.webp" alt="Melissa Rice" align="center" width="150px">|
 
 </details>
 
@@ -215,7 +216,7 @@ Increase and decrease transparency in focused or selected window.
 
 |<img src="config/bspwm/rices/karla/walls/wall-02.webp" alt="Karla Rice" align="center" width="150px">|<img src="config/bspwm/rices/karla/walls/wall-03.webp" alt="Karla Rice" align="center" width="150px">|<img src="config/bspwm/rices/karla/walls/wall-04.webp" alt="Karla Rice" align="center" width="150px">|
 |:-:|:-:|:-:|
-<img src="config/bspwm/rices/karla/walls/wall-05.webp" alt="Karla Rice" align="center" width="150px">|<img src="config/bspwm/rices/karla/walls/wall-06.webp" alt="Karla Rice" align="center" width="150px">|
+<img src="config/bspwm/rices/karla/walls/wall-05.webp" alt="Karla Rice" align="center" width="150px">|<img src="config/bspwm/rices/karla/walls/wall-06.webp" alt="Karla Rice" align="center" width="150px">|<img src="config/bspwm/rices/karla/walls/wall-07.webp" alt="Karla Rice" align="center" width="150px">|
 
 </details>
 
@@ -245,7 +246,10 @@ The plugin manager is Packer.
 <img src="https://user-images.githubusercontent.com/67278339/221430203-23308e84-c974-4481-8c17-9aab53b37766.gif" alt="Neovim Themes" align="center" width="400px">
 
 ## Firefox Theme (z0mbi3 Fox)
-<img src="https://user-images.githubusercontent.com/67278339/228313955-670436db-d502-4249-9817-d67e3de86aa1.png" alt="Firefox theme - z0mbi3-Fox" width="700">
+
+|<img src="https://user-images.githubusercontent.com/67278339/228313955-670436db-d502-4249-9817-d67e3de86aa1.png" alt="Firefox theme - z0mbi3-Fox" width="700">|
+|:-:|
+Complementarily you can install [this extension](https://github.com/PonyLucky/gh0stzk-Firefox/tree/master/extension) made by [PonyLucky](https://github.com/PonyLucky). It is a startpage to enhance UX. [Preview and configuration options](https://github.com/PonyLucky/gh0stzk-Firefox/tree/master/extension). Looks awesome with the firefox theme.
 
 ## Very useful keybindigs to know...
 

@@ -3,6 +3,10 @@
 #  ╚═╝╩ ╚═╩ ╩╩ ╩═╩╝╩╚═╚═╝  - z0mbi3.zk@protonmail.com
 #			z0mbi3 config..
 
+# Show keybindings help
+alt + F1
+	KeybindingsHelp
+	
 # Open Terminal (alacritty)
 super + Return
 	OpenApps --terminal
@@ -18,6 +22,10 @@ super + @space
 # Theme Selector
 alt + @space
 	RiceSelector
+
+# Scratchpad
+super + alt + o
+	tdrop -a -w 70% -h 35% -y 0 -x 15%  --class scratch alacritty --class=scratch
 
 # Power off, Reboot, Log out, Lockscreen, kill an app
 ctrl + super + alt + {p,r,q,l,k}

@@ -17,7 +17,7 @@ case "$class" in
 		;;
 	Updating)
 		eval "$consequences"
-		[ "$state" ] || echo "state=floating center=on rectangle=419x268+0+0 sticky=on"
+		[ "$state" ] || echo "state=floating center=on rectangle=400x430+0+0 sticky=on"
 		;;
 	Ranger)
 		eval "$consequences"
@@ -65,7 +65,7 @@ case "$class" in
 	    ;;
 	firefox|Navigator)
 	    eval "$consequences"
-	    [ "$state" ] || echo "state=pseudo_tiled desktop=^3 rectangle=1480x820+0+0 center=on follow=on"
+	    [ "$state" ] || echo "desktop=^3 follow=on"
 	    ;;
 	 Transmission-gtk)
 	    eval "$consequences"
