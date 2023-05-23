@@ -109,10 +109,10 @@ clear
 ########## ---------- Cloning the Rice! ---------- ##########
 
 logo "Downloading dotfiles"
-[ -d ~/dotfiles ] && rm -rf ~/dotfiles
-printf "Cloning rice from https://github.com/gh0stzk/dotfiles\n"
-cd
-git clone --depth=1 https://github.com/gh0stzk/dotfiles.git
+## [ -d ~/dotfiles ] && rm -rf ~/dotfiles
+printf "Cloning rice from https://github.com/Nathan-Shea/dotfiles\n"
+cd dotfiles
+git pull     ## git clone --depth=1 https://github.com/Nathan-Shea/dotfiles.git
 sleep 2
 clear
 
