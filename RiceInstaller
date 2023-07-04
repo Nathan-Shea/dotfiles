@@ -67,9 +67,11 @@ clear
 logo "Installing needed packages.."
 
 dependencias=(base-devel rustup pacman-contrib bspwm polybar sxhkd \
-			  kitty dunst rofi lsd jq polkit-gnome git brightnessctl \
-			  ranger xdotool feh maim libwebp xdg-user-dirs \
-			  webp-pixbuf-loader xorg-xprop xorg-xkill papirus-icon-theme \
+			  alacritty brightnessctl dunst rofi lsd \
+			  jq polkit-gnome git playerctl mpd \
+			  ncmpcpp geany ranger mpc picom xdotool \
+			  feh ueberzug maim pamixer libwebp xdg-user-dirs \
+			  webp-pixbuf-loader xorg-xprop xorg-xkill physlock papirus-icon-theme \
 			  ttf-jetbrains-mono ttf-jetbrains-mono-nerd ttf-terminus-nerd ttf-inconsolata ttf-joypixels \
 			  zsh zsh-autosuggestions zsh-history-substring-search zsh-syntax-highlighting xorg-xsetroot xorg-xwininfo xorg-xrandr)
 
@@ -107,14 +109,10 @@ clear
 ########## ---------- Cloning the Rice! ---------- ##########
 
 logo "Downloading dotfiles"
-if [ -d "$HOME/dotfiles" ]; then
-        cp -r $HOME/dotfiles $HOME/.dotfilestempbak
-fi
-
-[ -d ~/dotfiles ] && rm -rf ~/dotfiles
+## [ -d ~/dotfiles ] && rm -rf ~/dotfiles
 printf "Cloning rice from https://github.com/Nathan-Shea/dotfiles\n"
-cd
-git clone --depth=1 https://github.com/Nathan-Shea/dotfiles.git
+cd dotfiles
+git pull     ## git clone --depth=1 https://github.com/Nathan-Shea/dotfiles.git
 sleep 2
 clear
 
@@ -243,7 +241,6 @@ printf "%s%sFiles copied succesfully!!%s\n" "${BLD}" "${CGR}" "${CNC}"
 sleep 3
 
 ########## ---------- Installing Paru & Eww from source ---------- ##########
-: '
 
 logo "installing Paru & Eww"
 
@@ -275,7 +272,14 @@ else
 	printf "\n%s%sTdrop is already installed%s\n" "${BLD}" "${CGR}" "${CNC}"
 fi
 
-'
+########## ---------- Enabling MPD service ---------- ##########
+
+logo "Enabling mpd service"
+
+systemctl --user enable mpd.service
+systemctl --user start mpd.service
+printf "%s%sDone!!%s\n\n" "${BLD}" "${CGR}" "${CNC}"
+sleep 2
 
 ########## --------- Changing shell to zsh ---------- ##########
 
