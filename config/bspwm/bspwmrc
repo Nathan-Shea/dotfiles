@@ -61,7 +61,7 @@ bspc rule -a scratch sticky=on state=floating focus=on
 . SetSysVars
 
 # Terminate already running polybar, eww, picom, sxhkd and dunst instances
-processes=("picom" "polybar" "eww" "sxhkd" "dunst")
+processes=("polybar" "eww" "sxhkd" "dunst")
 
 for process in "${processes[@]}"; do
   if pidof -q "$process"; then
@@ -71,11 +71,6 @@ done
 
 # Load colors, dunst, bars and/or eww widgets
 . ${rice_dir}/Theme.sh
-
-# Launch picom // If you have old hardware or encounter problems 
-# uncomment the picom "--legacy-backends" line and comment the current one.
-picom --config "$HOME"/.config/bspwm/picom.conf &
-#picom --legacy-backends --config "$HOME"/.config/bspwm/picom.conf &
 
 # Launch dunst notification daemon
 dunst -config "$HOME"/.config/bspwm/dunstrc &

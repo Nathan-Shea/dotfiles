@@ -7,8 +7,8 @@
 #   └┘ ┴ ┴┴└─└─┘
 export VISUAL='nvim'
 export EDITOR='nvim'
-export TERMINAL='alacritty'
-export BROWSER='firefox'
+export TERMINAL='kitty'
+export BROWSER='librewolf'
 export HISTORY_IGNORE="(ls|cd|pwd|exit|sudo reboot|history|cd -|cd ..)"
 
 
